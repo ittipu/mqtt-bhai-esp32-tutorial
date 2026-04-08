@@ -52,4 +52,4 @@ The ESP32 subscribes to a command topic to control the onboard LED.
 ## 💻 ESP32 Code Setup
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+   git clone gh repo clone ittipu/mqtt-bhai-esp32-tutorial
