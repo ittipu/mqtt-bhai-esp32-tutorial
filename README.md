@@ -52,4 +52,22 @@ The ESP32 subscribes to a command topic to control the onboard LED.
 ## 💻 ESP32 Code Setup
 1. Clone this repository to your local machine:
    ```bash
-   git clone gh repo clone ittipu/mqtt-bhai-esp32-tutorial
+   git clone https://github.com/ittipu/mqtt-bhai-esp32-tutorial.git
+   ```
+2. Open the `MQTT_Pub_Sub_with_ESP32_Step_by_Step.ino` sketch in Arduino IDE.
+3. Install the `PubSubClient` and `ArduinoJson` libraries from the Library Manager.
+4. Update the Wi-Fi and MQTT broker credentials in the code:
+   ```cpp
+   const char* ssid = "YOUR_WIFI_SSID";
+   const char* password = "YOUR_WIFI_PASSWORD";
+   const char* mqtt_server = "mqtt.iotbhai.io"; // Or your Raspberry Pi IP
+   ```
+5. Flash the code to your ESP32 and open the Serial Monitor (Baud Rate: 115200) to see the connection logs.
+
+## Video Tutorial
+Watch the full setup and demonstration on YouTube:
+[ESP32 MQTT Tutorial: Sensor Data & LED Control with MQTT Bhai App] (Link coming soon!)
+
+## Contributing & Feedback
+Feel free to open an issue or submit a pull request if you want to improve this example! If you love the MQTT Bhai app, please consider leaving a 5-star review on the Play Store.
+   
